@@ -1223,11 +1223,56 @@ abstract class Schema implements SchemaInterface
     public function userObjectClasses(): array
     {
         return [
-            $this->top(),
+            $this->inetOrgPerson(),
             $this->person(),
-            $this->organizationalPerson(),
+            $this->top(),
             $this->objectClassUser(),
+            $this->sambaSamAccount(),
+            $this->posixAccount(),
+            $this->shadowAccount(),
+            $this->qmailUser(),
+            $this->organizationalPerson(),
         ];
+    }
+
+    /**
+     * {@inheritdoc}
+     */
+    public function qmailUser()
+    {
+        return 'qmailUser';
+    }
+
+    /**
+     * {@inheritdoc}
+     */
+    public function shadowAccount()
+    {
+        return 'shadowAccount';
+    }
+
+    /**
+     * {@inheritdoc}
+     */
+    public function posixAccount()
+    {
+        return 'posixAccount';
+    }
+
+    /**
+     * {@inheritdoc}
+     */
+    public function sambaSamAccount()
+    {
+        return 'sambaSamAccount';
+    }
+
+    /**
+     * {@inheritdoc}
+     */
+    public function inetOrgPerson()
+    {
+        return 'inetOrgPerson';
     }
 
     /**
