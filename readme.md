@@ -1,5 +1,6 @@
 <h3 align="center">
-<strong>:warning: Project No Longer Maintained :warning:</strong>
+<strong>:warning: This is a fork of https://github.com/Adldap2/Adldap2 :warning:</strong>
+<strong>:warning: Adldap2/Adldap2 is no Longer Maintained :warning:</strong>
 </h3>
 
 <p align="center">
@@ -18,11 +19,11 @@ Consider migrating to its direct replacement
 <h1 align="center">Adldap2</h1>
 
 <p align="center">
-    <a href="https://github.com/Adldap2/Adldap2/actions"><img src="https://img.shields.io/github/workflow/status/adldap2/adldap2/Tests.svg?style=flat-square"/></a>
-    <a href="https://scrutinizer-ci.com/g/Adldap2/Adldap2/?branch=master"><img src="https://img.shields.io/scrutinizer/g/adLDAP2/adLDAP2/master.svg?style=flat-square"/></a>
-    <a href="https://packagist.org/packages/adldap2/adldap2"><img src="https://img.shields.io/packagist/dt/adldap2/adldap2.svg?style=flat-square"/></a>
-    <a href="https://packagist.org/packages/adldap2/adldap2"><img src="https://img.shields.io/packagist/v/adldap2/adldap2.svg?style=flat-square"/></a>
-    <a href="https://packagist.org/packages/adldap2/adldap2"><img src="https://img.shields.io/packagist/l/adldap2/adldap2.svg?style=flat-square"/></a>
+    <a href="https://github.com/Portal89/Adldap2/actions"><img src="https://img.shields.io/github/workflow/status/Portal89/Adldap2/Tests.svg?style=flat-square"/></a>
+    <a href="https://scrutinizer-ci.com/g/Portal89/Adldap2/?branch=master"><img src="https://img.shields.io/scrutinizer/g/Portal89/Adldap2/master.svg?style=flat-square"/></a>
+    <a href="https://packagist.org/packages/Portal89/Adldap2"><img src="https://img.shields.io/packagist/dt/Portal89/Adldap2.svg?style=flat-square"/></a>
+    <a href="https://packagist.org/packages/Portal89/Adldap2"><img src="https://img.shields.io/packagist/v/Portal89/Adldap2.svg?style=flat-square"/></a>
+    <a href="https://packagist.org/packages/Portal89/Adldap2"><img src="https://img.shields.io/packagist/l/Portal89/Adldap2.svg?style=flat-square"/></a>
 </p>
 
 <p align="center">

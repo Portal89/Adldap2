@@ -1,5 +1,5 @@
 {
-    "name": "adldap2/adldap2",
+    "name": "portal89/adldap2",
     "type": "library",
     "description": "A PHP LDAP Package for humans.",
     "keywords": [
@@ -13,16 +13,21 @@
     ],
     "license": "MIT",
     "support": {
-        "docs": "https://github.com/Adldap2/Adldap2/blob/master/readme.md",
-        "issues": "https://github.com/Adldap2/Adldap2/issues",
-        "source": "https://github.com/Adldap2/Adldap2",
-        "email": "steven_bauman@outlook.com"
+        "docs": "https://github.com/Portal89/Adldap2/blob/master/readme.md",
+        "issues": "https://github.com/Portal89/Adldap2/issues",
+        "source": "https://github.com/Portal89/Adldap2",
+        "email": "joao.rafael@portal89.com.br"
     },
     "authors": [
         {
-            "name": "Steve Bauman",
-            "email": "steven_bauman@outlook.com",
+            "name": "João Rafael",
+            "email": "joao.rafael@portal89.com.br",
             "role": "Developer"
+        },
+        {
+            "name": "Fabio Mathias",
+            "email": "fmathias@portal89.com.br",
+            "role": "Maintainer"
         }
     ],
     "require": {
