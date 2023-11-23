@@ -1226,7 +1226,6 @@ abstract class Schema implements SchemaInterface
             $this->inetOrgPerson(),
             $this->person(),
             $this->top(),
-            $this->objectClassUser(),
             $this->sambaSamAccount(),
             $this->posixAccount(),
             $this->shadowAccount(),
