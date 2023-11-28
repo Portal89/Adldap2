@@ -383,6 +383,9 @@ class Ldap implements ConnectionInterface
      */
     public function modifyBatch($dn, array $values)
     {
+        if ($values[0]['attrib'] == 'distinguishedname' && $values[0]['modtype'] == 3) {
+            $values = [$values[1]];
+        }
         return ldap_modify_batch($this->connection, $dn, $values);
     }
 
