@@ -1229,7 +1229,6 @@ abstract class Schema implements SchemaInterface
             $this->sambaSamAccount(),
             $this->posixAccount(),
             $this->shadowAccount(),
-            $this->qmailUser(),
             $this->organizationalPerson(),
         ];
     }
